@@ -51,7 +51,8 @@ Starting the Apollo GraphQL Server:
 
 Below is a sample GraphQL query to fetch the necessary data from Etherscan
 
-`query {
+```graphql
+query {
   etherBalanceByAddress {
     message
     result
@@ -72,4 +73,5 @@ Below is a sample GraphQL query to fetch the necessary data from Etherscan
     message
     result
   }
-}`
+}
+```
